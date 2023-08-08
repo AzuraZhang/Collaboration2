@@ -104,3 +104,25 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 110.0
+- Name: NewFolder1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: NewFolder1
+    Type: FolderType
+    Children:
+    - Name: Object1
+      Type: BaseObjectType
+    - Name: OptionButton1
+      Id: g=e9b02460947c5bf923cf29d0a545aae5
+      Supertype: RadioButton
+      ReferenceType: HasComponent
+      Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OptionButton1"}
